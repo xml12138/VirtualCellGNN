@@ -1,0 +1,106 @@
+datasets:
+  Brain:
+    h5ad_files:
+    # - processed_CVCL_0131_CNS_Brain_A-172_train.h5ad
+    # - processed_CVCL_1239_CNS_Brain_H4_train.h5ad
+    # - processed_CVCL_1715_CNS_Brain_SW_1088_train.h5ad
+    - CNS_CVCL_0131_train_2314089.h5ad
+    - CNS_CVCL_1239_train_1042027.h5ad
+    # - CNS_CVCL_1715_train_146728.h5ad  #测试
+  Pancreas:
+    h5ad_files:
+    - Pancreas_CVCL_0152_train_2259142.h5ad
+    - Pancreas_CVCL_0334_train_2535676.h5ad
+    - Pancreas_CVCL_0428_train_2432621.h5ad
+    - Pancreas_CVCL_0480_train_4089552.h5ad
+    - Pancreas_CVCL_1119_train_2404594.h5ad
+    - Pancreas_CVCL_1635_train_1700052.h5ad
+    - Pancreas_CVCL_C466_train_1682242.h5ad
+    # - processed_CVCL_0152_Pancreas_AsPC-1_train.h5ad
+    # - processed_CVCL_0334_Pancreas_Hs_766T_train.h5ad
+    # - processed_CVCL_0428_Pancreas_MIA_PaCa-2_train.h5ad
+    # - processed_CVCL_0480_Pancreas_PANC-1_train.h5ad
+    # - processed_CVCL_1119_Pancreas_CFPAC-1_train.h5ad
+    # - processed_CVCL_1635_Pancreas_Panc_03.27_train.h5ad
+    # - processed_CVCL_C466_Pancreas_hTERT-HPNE_train.h5ad
+  Breast:
+    h5ad_files:
+    - Breast_CVCL_0179_train_1271858.h5ad
+    - Breast_CVCL_0332_train_1725238.h5ad
+    # - processed_CVCL_0179_Breast_BT-474_train.h5ad
+    # - processed_CVCL_0332_Breast_HS-578T_train.h5ad
+  Bowel:
+    h5ad_files:
+    - Bowel_CVCL_0218_train_1456721.h5ad
+    - Bowel_CVCL_0292_train_1500093.h5ad
+    - Bowel_CVCL_0320_train_2171014.h5ad
+    - Bowel_CVCL_0397_train_1828264.h5ad
+    - Bowel_CVCL_0399_train_3013189.h5ad
+    - Bowel_CVCL_0504_train_2182256.h5ad
+    - Bowel_CVCL_0546_train_6040324.h5ad
+    - Bowel_CVCL_1717_train_1921731.h5ad
+    - Bowel_CVCL_1724_train_954144.h5ad
+    # - processed_CVCL_0218_Bowel_COLO_205_train.h5ad
+    # - processed_CVCL_0292_Bowel_HCT15_train.h5ad
+    # - processed_CVCL_0320_Bowel_HT-29_train.h5ad
+    # - processed_CVCL_0397_Bowel_LS_180_train.h5ad
+    # - processed_CVCL_0399_Bowel_LoVo_train.h5ad
+    # - processed_CVCL_0504_Bowel_RKO_train.h5ad
+    # - processed_CVCL_0546_Bowel_SW480_train.h5ad
+    # - processed_CVCL_1717_Bowel_SW1417_train.h5ad
+    # - processed_CVCL_1724_Bowel_SW48_train.h5ad
+  Liver:
+    h5ad_files:
+    - Liver_CVCL_0366_train_1501655.h5ad
+    - Liver_CVCL_1098_train_1244149.h5ad
+    # - processed_CVCL_0366_Liver_SNU-423_train.h5ad
+    # - processed_CVCL_1098_Liver_HepG2_C3A_train.h5ad
+  Stomach:
+    h5ad_files:
+    - Esophagus_CVCL_0371_train_2229608.h5ad
+    - Esophagus_CVCL_0099_train_1221620.h5ad
+    # - processed_CVCL_0371_Esophagus_Stomach_KATO_III_train.h5ad
+    # - processed_CVCL_0099_Esophagus_Stomach_SNU-1_train.h5ad
+  Lung:
+    h5ad_files:
+    - Lung_CVCL_0459_train_5736228.h5ad
+    - Lung_CVCL_1055_train_1430090.h5ad
+    - Lung_CVCL_1285_train_3307256.h5ad
+    - Lung_CVCL_1478_train_2016939.h5ad
+    - Lung_CVCL_1495_train_1838498.h5ad
+    - Lung_CVCL_1517_train_1937172.h5ad
+    # - Lung_CVCL_1531_train_12460.h5ad   #测试
+    - Lung_CVCL_1547_train_1774229.h5ad
+    - Lung_CVCL_1550_train_2227654.h5ad
+    # - Lung_CVCL_1571_train_2852.h5ad    #测试
+    # - Lung_CVCL_1577_train_129800.h5ad
+    - Lung_CVCL_1693_train_2282510.h5ad
+    # - Lung_CVCL_1716_train_208835.h5ad
+    - Lung_CVCL_1731_train_1708853.h5ad
+    - Lung_CVCL_0023_train_2567798.h5ad
+    # - processed_CVCL_0459_Lung_NCI-H460_train.h5ad
+    # - processed_CVCL_1055_Lung_A-427_train.h5ad
+    # - processed_CVCL_1285_Lung_HOP62_train.h5ad
+    # - processed_CVCL_1478_Lung_NCI-H1573_train.h5ad
+    # - processed_CVCL_1495_Lung_NCI-H1792_train.h5ad
+    # - processed_CVCL_1517_Lung_NCI-H2030_train.h5ad
+    # - processed_CVCL_1531_Lung_NCI-H2122_train.h5ad
+    # - processed_CVCL_1547_Lung_NCI-H23_train.h5ad
+    # - processed_CVCL_1550_Lung_NCI-H2347_train.h5ad
+    # - processed_CVCL_1571_Lung_NCI-H596_train.h5ad
+    # - processed_CVCL_1577_Lung_NCI-H661_train.h5ad
+    # - processed_CVCL_1693_Lung_SHP-77_train.h5ad
+    # - processed_CVCL_1716_Lung_SW_1271_train.h5ad
+    # - processed_CVCL_1731_Lung_SW_900_train.h5ad
+    # - processed_CVCL_0023_Lung_A549_train.h5ad
+
+global:
+  data_root: /home/lixm/2026_2_RNA_PPI/1_data_process/virtual_cell_project/config/multi_tissue_split_data_count_based
+  cache_dir: .cache/
+  default_tissue: Breast
+  # train_ratio: 0.8
+  # val_ratio: 0.1
+  # test_ratio: 0.1
+  # batch_size: 32
+  # seed: 42
+
